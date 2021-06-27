@@ -3,6 +3,27 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# ignore secret configs (passwords and such)
+*secret*.config
+*secret*.resx
+*secret*.Designer.cs
+*.cscfg
+
+# thetasoft specific additions
+build/
+[Ss]hip/
+**/Properties/launchSettings.json
+*.pubxml.user
+node_modules/
+bower_components/
+Bak/
+# Typescript v1 declaration files
+typings/
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+
 # User-specific files
 *.rsuser
 *.suo
